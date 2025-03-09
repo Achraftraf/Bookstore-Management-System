@@ -1,9 +1,9 @@
-package com.example.demo;
+package com.example.bookstore;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+@SpringBootTest(classes = BookstoreApplication.class) 
 class BookstoreApplicationTests {
 
 	@Test

@@ -26,7 +26,7 @@ public class BookController {
         return bookService.getBookById(id);
     }
 
-    @PostMapping
+    @PostMapping // Removed "/add" and use POST directly for adding a book
     public Book addBook(@RequestBody Book book) {
         return bookService.addBook(book);
     }
